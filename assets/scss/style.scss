@@ -28,7 +28,7 @@ html {
     font-size: math.div(10, $wrapper-width-num) * 100vw;
   }
   @include sp {
-    font-size: 10 / 375 * 100vw;
+    font-size: math.div(10, 375) * 100vw;
   }
 }
 
